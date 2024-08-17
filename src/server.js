@@ -25,7 +25,7 @@ app.post("/api", (req, res) => {
   };
   // let json = req.body;
   getAnswer(json).then((ans) => {
-    res.send(`${JSON.stringify(ans)}`);
+    res.send(`${JSON.stringify(ans)} and ${JSON.stringify(json)}`);
   });
 });
 

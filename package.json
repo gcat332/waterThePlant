@@ -12,8 +12,6 @@
   "description": "",
   "devDependencies": {
     "csv-database": "^0.9.2",
-    "database-js": "^3.0.11",
-    "database-js-csv": "^1.0.0",
     "express": "^4.19.2",
     "moment": "^2.30.1"
   }
